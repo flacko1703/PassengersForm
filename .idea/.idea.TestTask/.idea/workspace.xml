@@ -7,33 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49fab097-8984-4c1b-acdf-d079348f98ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassengersForm/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassengersForm/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassengersForm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassengersForm/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PassengersForm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/App.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/App.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/MainWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/MainWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Models/PassengerModels/PassengerForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/PassengersForm.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Services/DialogService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Services/IDialogService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Services/IExcelData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/ViewModels/PassengerFormListViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/ViewModels/PassengerFormViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerOpenFileButtonView.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerOpenFileButtonView.xaml.cs" afterDir="false" />
+    <list default="true" id="49fab097-8984-4c1b-acdf-d079348f98ff" name="Changes" comment="Added test file">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +85,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681553302668</updated>
-      <workItem from="1681553303896" duration="34371000" />
+      <workItem from="1681553303896" duration="35880000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1681729816833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729816833</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added test file">
+      <created>1681729912473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681729912473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Init" />
+    <MESSAGE value="Added test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs</url>
+          <line>55</line>
+          <properties documentPath="C:\DEV\TestTask\PassengersForm\Services\ExcelToPassengerFormService.cs" initialLine="55" containingFunctionPresentation="Method 'FillCollectionFromExcel'">
+            <startOffsets>
+              <option value="2183" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2210" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

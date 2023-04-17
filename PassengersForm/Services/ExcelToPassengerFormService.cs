@@ -47,12 +47,13 @@ public class ExcelToPassengerFormService : IExcelData<PassengerFormViewModel>
             
             
             DateTime timeValue;
-            var isValidTime = DateTime.TryParseExact(timeColumn, "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture,
+            
+            var isValidTime = DateTime.TryParseExact(timeColumn, "dd.MM.yyyy H:mm:ss", CultureInfo.InvariantCulture,
                 DateTimeStyles.None, out timeValue);
 
             var isNumeric = int.TryParse(flightNumberColumn, out int flightNumber);
 
-
+           
 
             if (string.IsNullOrEmpty(firstNameColumn) || !isValidTime || !isNumeric)
             {

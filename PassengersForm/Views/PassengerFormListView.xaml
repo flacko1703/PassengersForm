@@ -8,7 +8,9 @@
              d:DesignHeight="300" d:DesignWidth="300">
     
     <Grid>
-        <ListView ItemsSource="{Binding PassengerForms}">
+        
+        <ListView ItemsSource="{Binding PassengerForms}"
+                  ScrollViewer.CanContentScroll="True">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Flight Number">
