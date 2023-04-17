@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49fab097-8984-4c1b-acdf-d079348f98ff" name="Changes" comment="Added test file">
+    <list default="true" id="49fab097-8984-4c1b-acdf-d079348f98ff" name="Changes" comment="Fix time format">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/PassengersForm/Views/PassengerFormListView.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681553302668</updated>
-      <workItem from="1681553303896" duration="35880000" />
+      <workItem from="1681553303896" duration="36807000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1681729816833</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681729912473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix time format">
+      <created>1681742306992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681742306992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -110,23 +116,24 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="Added test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test file" />
+    <MESSAGE value="Fix time format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix time format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/PassengersForm/Services/ExcelToPassengerFormService.cs</url>
-          <line>55</line>
-          <properties documentPath="C:\DEV\TestTask\PassengersForm\Services\ExcelToPassengerFormService.cs" initialLine="55" containingFunctionPresentation="Method 'FillCollectionFromExcel'">
+          <line>59</line>
+          <properties documentPath="C:\DEV\TestTask\PassengersForm\Services\ExcelToPassengerFormService.cs" initialLine="62" containingFunctionPresentation="Method 'FillCollectionFromExcel'">
             <startOffsets>
-              <option value="2183" />
+              <option value="2298" />
             </startOffsets>
             <endOffsets>
-              <option value="2210" />
+              <option value="2318" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

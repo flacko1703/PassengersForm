@@ -9,9 +9,13 @@
     
     <Grid>
         
+
         <ListView ItemsSource="{Binding PassengerForms}"
+                  MaxHeight="300"
+                  ScrollViewer.VerticalScrollBarVisibility="Visible"
                   ScrollViewer.CanContentScroll="True">
             <ListView.View>
+                
                 <GridView>
                     <GridViewColumn Header="Flight Number">
                         <GridViewColumn.CellTemplate>
@@ -37,7 +41,9 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                 </GridView>
+                    
             </ListView.View>
         </ListView>
+           
     </Grid>
 </UserControl>
